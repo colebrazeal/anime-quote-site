@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="styles.css" rel="stylesheet" type="text/css" />
+        <title>Anime Quote Generator</title>
+        <link rel="" href="Naruto.json">
+        <link rel="stylesheet" href="chibi.css">
+        <link rel="icon" type="image/x-icon" href="content/kaneki.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
+        <script src="script.js" defer></script>
+    </head>
+    <!-- ********************** MENU **************************** -->
+    <header class="primary-header flex">
+        <div class="menu-btn">
+            <div id="primary-navigation" class="menu-btn_burger">
+            </div>
+        </div>
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation naruto-hover flex">
+                <li class="active">
+                    <a href="index.html">
+                        <span aria-hidden="true"></span>Home
+                    </a>
+                </li>
+                <li>
+                    <a href="ghoul.html">
+                        <span aria-hidden="true"></span>Tokyo Ghoul
+                    </a>
+                </li>
+                <li>
+                    <a href="ryuk.html">
+                        <span aria-hidden="true"></span>Death Note
+                    </a>
+                </li>
+                <li>
+                    <a href="jujutsu.html">
+                        <span aria-hidden="true"></span>Jujutsu Kaisen
+                    </a>
+                </li>
+                <li>
+                    <a href="titan.html">
+                        <span aria-hidden="true"></span>Attack on Titan
+                    </a>
+                </li>
+        </nav>
+    </header>
+<!-- ********************** MENU **************************** -->
+    <body class="naruto-background">
+        <div id="menu" class="primary-header flex"></div>
+        <div id="naruto">
+            <section class="head"></section>
+            <section class="torso"></section>
+            <section class="legs"></section>
+            <section class="shadow"></section>
+        </div>
+        <div>
+            <button id="naruto-button">
+                <img src="./content/Akatsuki-Logo.png" />
+            </button>
+        </div>
+        <div class="container">
+                <p class="naruto-quote item" id="quote"></p>
+                <p class="naruto-character item" id="character"></p>
+            </div>
+    </body>
+
+</html>
