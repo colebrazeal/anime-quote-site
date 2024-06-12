@@ -100,7 +100,7 @@ img, #home-button {
 }
 
 .home-quote {
-    color: rgb(255, 255, 255);
+    color: #000;
     font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
@@ -113,7 +113,7 @@ img, #home-button {
 }
 
 .home-character {
-    color: rgb(255, 255, 255);
+    color: #000;
     font-size: 1.5rem;
     text-align: center;
     font-weight: bold;
@@ -263,7 +263,7 @@ button {
 }
 
 .p-character {
-    color: rgb(255, 255, 255);
+    color: #000;
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0;
@@ -276,7 +276,7 @@ button {
 }
 
 .p-quote {
-    color: rgb(255, 255, 255);
+    color: #000;
     font-size: 1.5rem;
     font-weight: bold;
     margin: 0;
