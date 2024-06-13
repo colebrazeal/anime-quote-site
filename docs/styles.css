@@ -558,8 +558,8 @@ button {
 
 @media all and (max-width: 900px) {
 
-    .primary-navigation a {
-    color: #000;
+    .primary-navigation {
+        background-color: var(--aqua);
     }
 
     h1 {
@@ -577,12 +577,12 @@ button {
 
     }
 
-    @supports (backdrop-filter: blur(5px)) {
+    /* @supports (backdrop-filter: blur(5px)) {
         .primary-navigation { 
             background-color: rgb(128,128,128, 0.8);
             backdrop-filter: blur(5px);
         }
-    }
+    } */
 
     .akatsuki , #home-button{
         display: block;
@@ -665,6 +665,7 @@ button {
 
     .primary-navigation[data-visible="true"] {
         transform: translateX(0%);
+        color: #fff;
     }
 
     .primary-navigation a {
@@ -707,7 +708,6 @@ button {
 
     .menu-btn_burger::before {
         transform: translateY(-8px);
-        color: #fff !important;
     }
 
     .menu-btn_burger::after {
