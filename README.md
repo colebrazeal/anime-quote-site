@@ -1,5 +1,5 @@
-# anime-quotes
-
-https://yournamellc.github.io/anime-quote-generator/index.html
-# anime-quote-generator
 # anime-quote-site
+
+This site contains quotes from some of my favorite animes, enjoy ;)
+
+https://colebrazeal.github.io/anime-quote-site/

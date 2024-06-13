@@ -558,6 +558,10 @@ button {
 
 @media all and (max-width: 900px) {
 
+    .primary-navigation a {
+    color: #000;
+    }
+
     h1 {
         font-size: 25px;
         line-height: 50px;
@@ -575,7 +579,7 @@ button {
 
     @supports (backdrop-filter: blur(5px)) {
         .primary-navigation { 
-            background: hsla(0, 0%, 0%, 0.7);
+            background-color: rgb(128,128,128, 0.8);
             backdrop-filter: blur(5px);
         }
     }
