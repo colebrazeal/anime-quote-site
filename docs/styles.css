@@ -183,8 +183,6 @@ button {
     list-style: none;
     padding: 0;
     margin: 0;
-    /* background: hsl(0 0% 100% / 0.5); */
-    /* backdrop-filter: blur(5px); */
     font-size: 1.3rem;
 }
 
@@ -614,7 +612,7 @@ button {
     }
 
     .home-quote {
-        color: rgb(255, 255, 255);
+        color: #000;
         font-size: 1rem;
         text-align: center;
         font-weight: bold;
@@ -627,7 +625,7 @@ button {
     }
     
     .home-character {
-        color: rgb(255, 255, 255);
+        color: #000;
         font-size: 1rem;
         text-align: center;
         font-weight: bold;
@@ -639,7 +637,7 @@ button {
     }
     
     .home-anime {
-        color: rgb(255, 255, 255);
+        color: #000;
         font-size: 1rem;
         text-align: center;
         font-weight: bold;
@@ -763,7 +761,7 @@ button {
     }
 
     .p-character {
-        color: rgb(255, 255, 255);
+        color: #000;
         font-size: 1rem;
         font-weight: bold;
         margin: 0;
@@ -776,7 +774,7 @@ button {
     }
 
     .p-quote {
-        color: rgb(255, 255, 255);
+        color: #000;
         font-size: 1rem;
         font-weight: bold;
         margin: 0;
@@ -951,7 +949,7 @@ button {
 }
 
 .jujutsu-character {
-    color: rgb(255, 255, 255);
+    color: #000;
     font-size: 1rem;
     font-weight: bold;
     margin: 0;
@@ -964,7 +962,7 @@ button {
 }
 
 .jujutsu-quote {
-    color: rgb(255, 255, 255);
+    color: #000;
     font-size: 1rem;
     font-weight: bold;
     margin: 0;
